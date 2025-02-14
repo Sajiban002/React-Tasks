@@ -1,0 +1,337 @@
+body {
+    margin: 0;
+    background-color: #fecd7f74;
+    font-family: 'Arial Black', sans-serif;
+    box-sizing: border-box;
+    min-height: 100vh;
+  }
+  
+  .header {
+    background-color: rgb(250, 155, 30);
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  
+  .newheader {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .logo {
+    width: 60px;
+    margin-right: 15px;
+  }
+  
+  h1 {
+    font-size: 28px;
+    color: white;
+    margin: 0;
+    font-weight: bold;
+    margin-right: 15px;
+  }
+  
+  .contact {
+    text-align: left;
+    color: white;
+    font-size: 14px;
+    margin-left: 50px;
+  }
+  
+  .contact p {
+    font-size: 16px;
+    margin: 5px 0;
+    transition: color 0.3s ease;
+  }
+  
+  .contact p:hover {
+    color: #ffcc00;
+  }
+  
+  .contact small {
+    font-size: 14px;
+    margin-top: 3px;
+  }
+  
+  .headerbutton {
+    background-color: transparent;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 2px solid transparent;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+    font-family: 'Arial', sans-serif;
+    cursor: pointer;
+  }
+  
+  .headerbutton:hover {
+    border-color: white;
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: scale(1.05);
+  }
+  
+  .headerbutton:active {
+    background-color: rgb(255, 59, 59);
+    transform: scale(0.95);
+  }
+  
+  .main-img {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .main-img img {
+    max-width: 60%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+  }
+  
+  .main-info {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding: 0 15px;
+    text-align: center;
+  }
+  
+  .info {
+    width: 47%;
+    background-color: rgb(252, 158, 36);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgb(255, 51, 0);
+    text-align: left;
+  }
+  
+  .info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #ffffff;
+  }
+  
+  .info p {
+    font-size: 16px;
+    color: #ffffff;
+  }
+  
+  .code-img {
+    border-radius: 10px;
+    max-width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 38px;
+  }
+  
+  .tim-image {
+    border-radius: 10px;
+    max-width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+  }
+  
+  .about-us a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .about-us a {
+    display: flex;
+    align-items: center;
+  }
+  
+  .about-us a img {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .controlbutton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(250, 155, 30);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .controlbutton:hover {
+    background-color: rgb(252, 158, 36);
+    transform: scale(1.05);
+  }
+  
+  .controlbutton:active {
+    transform: scale(0.95);
+  }
+  
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    background-color: rgb(252, 158, 36);
+    padding: 30px 40px;
+    border-radius: 10px;
+    text-align: center;
+    width: 370px;
+    box-shadow: 0 0 10px rgb(248, 141, 0);
+    position: relative;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .register h3 {
+    color: #ffffff;
+    font-size: 24px;
+  }
+  
+  .register label {
+    color: #ffffff;
+    display: block;
+    text-align: left;
+    margin-bottom: 8px;
+    font-size: 18px;
+  }
+  
+  .register input {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: none;
+  }
+  
+  .register input:focus {
+    outline: none;
+  }
+  
+  .register button {
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px;
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+  }
+  
+  .register button:hover {
+    background-color: #e65c00;
+  }
+  
+  .register button:active {
+    background-color: #cc5200;
+    transform: scale(0.97);
+    transition: transform 0.3s ease;
+  }
+  
+  .another-site {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh; 
+  }
+  
+  .another-site .content {
+      flex-grow: 1; 
+      padding: 20px; 
+  }
+
+
+  @keyframes shake {
+    10%, 90% {
+        transform: translate3d(-5px, 5px, 0);
+    }
+
+    20%, 80% {
+        transform: translate3d(3px, -3px, 0);
+    }
+
+    30%, 50%, 70% {
+        transform: translate3d(-5px, 10px, 5px);
+    }
+
+    40%, 60% {
+        transform: translate3d(4px, -3px, 5px);
+    }
+}
+
+.error-page {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url("https://fauux.neocities.org/bg/bg_main2.gif");
+    background-color: #d2738a;
+    color: #c1b492;
+    
+}
+
+.box {
+    background-color: rgba(22, 6, 22, 0.155);
+    padding: 63px;
+    margin-left: 280px;
+    font-family: 'Times New Roman', serif;
+}
+
+.title {
+    font-size: 48px;
+    margin: 0;
+}
+
+.error {
+    font-size: 60px;
+    margin: 20px 0;
+    animation: shake 0.1s infinite;
+    color: #9400D3;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.goback {
+    font-size: 24px;
+    opacity: 0.8;
+    animation: shake 0.1s infinite;
+}
