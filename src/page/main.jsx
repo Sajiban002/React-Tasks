@@ -86,11 +86,11 @@ function MainInfo() {
 
 function Main({ children }) {
   return (
-    <div className="main-container"> {/* Обертка для всего контента Main */}
+    <div className="main-container">
       {children}
     </div>
   );
 }
 
-export default Main; // Экспортируем Main как default
+export default Main;
 export { MainImage, Controls, MainInfo };
